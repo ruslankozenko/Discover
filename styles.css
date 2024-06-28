@@ -1,0 +1,96 @@
+/* ============== COMMON STYLES ============== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    background: #141414;
+    font-family: "Urbanist", "Inter", sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 375px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* ============== MOBILE HEADER ============== */
+
+.header-menu {
+    display: none;
+}
+
+.header-estatein-button {
+    display: none;
+}
+
+.header-estatein {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background: #1a1a1a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mobile-menu-open-btn {
+    background: transparent;
+    border: none;
+}
+
+.mobile-menu-open-btn-icon {
+    fill: #fff;
+}
+
+/* ============== /MOBILE HEADER ============== */

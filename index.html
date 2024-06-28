@@ -3,7 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Estatein</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+
+    <header class="header-estatein">
+      <div class="header-container container">
+        <nav class="header-navigation">
+          <a class="logo-header" href="/">
+            <img
+              class="header-logo-image"
+              src="./images/logo.png"
+              alt="estatein"
+              width="93"
+              height="28"
+              loading="lazy"
+            />
+          </a>
+          <ul class="header-menu list">
+            <li class="header-item">
+              <a class="menu-link link" href="/">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="menu-link link" href="/">About us</a>
+            </li>
+            <li class="header-item">
+              <a class="menu-link link" href="/">Properties</a>
+            </li>
+            <li class="header-item">
+              <a class="menu-link link" href="/">Service</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-estatein-button">
+          <button class="header-button" type="button">Contact us</button>
+        </div>
+        <div class="header-mobil-button">
+          <button class="mobile-menu-open-btn" type="button">
+            <svg
+              class="mobile-menu-open-btn-icon"
+              width="28"
+              height="28"
+              aria-label="mobile menu open icon"
+            >
+              <use href="./logo/burger.svg"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- /Header -->
+  </body>
 </html>
