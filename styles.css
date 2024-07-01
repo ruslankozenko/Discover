@@ -110,6 +110,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 100px;
 }
 
 .header-estatein-button {
@@ -119,7 +120,7 @@ body {
 .header-navigation {
     display: flex;
     align-items: center;
-    gap: 100px;
+    
 }
 
 .menu-link {
@@ -164,6 +165,29 @@ body {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+.header-logo-image {
+    width: 113px;
+    height: 34px;
+}
+
+.header-menu {
+    max-width: 322px;
+    gap: 24px;
+    margin-left: 380px;
+}
+
+.menu-link {
+    font-size: 14px;
+}
+
+.header-item:hover,
+.header-item:focus {
+    width: 77px;
+    height: 45px;
+    border-radius: 8px;
+}
+
 }
 
 @media screen and (min-width: 1920px) {
@@ -173,4 +197,35 @@ body {
     padding-left: 162px;
     padding-right: 162px;
 }
+
+.header-logo-image {
+    width: 160px;
+    height: 48px;
+}
+
+.header-menu {
+    gap: 30px;
+    max-width: 407px;
+    margin-left: 500px;
+}
+
+.menu-link {
+    font-size: 18px;
+}
+
+.header-item:hover,
+.header-item:focus {
+    width: 96px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.header-button {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 136px;
+    height: 59px;
+}
+
 }
