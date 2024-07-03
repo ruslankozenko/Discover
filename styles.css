@@ -94,6 +94,117 @@ body {
 
 /* ============== MOBILE HERO ============== */
 
+.estatein-hero {
+    margin-bottom: 40px;
+}
+
+.photo-hero-image {
+    position: relative;
+}
+
+.hero-photo {
+    background: url(./icons/abstract-hero.svg) center no-repeat;
+}
+
+.hero-top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: -80px;
+    margin-bottom: 40px;
+}
+
+.hero-icon-photo {
+    position: relative;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.hero-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #999;
+}
+
+.hero-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 100%;
+    height: 49px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #703bf7;
+}
+
+.achievements-hero-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.achievements-subitem {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.achievements-hero-item {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 16px;
+    width: 173px;
+    height: 91px;
+    background: #1a1a1a;
+}
+
+.achievements-hero-item3 {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    height: 91px;
+    background: #1a1a1a;
+}
+
+.achievements-item-title {
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}
+
+.achievements-item-title-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: center;
+    color: #999;
+}
+
 /* ============== /MOBILE HERO ============== */
 
 @media screen and (min-width: 768px) {
