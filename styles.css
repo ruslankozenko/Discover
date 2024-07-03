@@ -103,7 +103,7 @@ body {
 }
 
 .hero-photo {
-    background: url(./icons/abstract-hero.svg) center no-repeat;
+    background: url(./icons/hero-icon/abstract-hero-mob.svg) center no-repeat;
 }
 
 .hero-top {
@@ -168,7 +168,6 @@ body {
 .achievements-subitem {
     display: flex;
     gap: 12px;
-    width: 100%;
 }
 
 .achievements-hero-item {
@@ -207,7 +206,15 @@ body {
 
 /* ============== /MOBILE HERO ============== */
 
+@media screen and (max-width: 768px) {
+    .achievements-subitem {
+            width: 100%;
+        }
+}
+
 @media screen and (min-width: 768px) {
+
+/*============== TABLET HEADER ==============*/
 
 .container {
     max-width: 768px;
@@ -215,7 +222,27 @@ body {
     padding-right: 40px;
 }    
 
-/* ============== TABLET HEADER ============== */
+/* ============== /TABLET HEADER ============== */
+
+/* ============== TABLET HERO ============== */
+
+.hero-photo {
+    background: url(./icons/hero-icon/abstract-hero-tab.svg) center no-repeat;
+}
+
+.hero-button {
+    flex-direction: row;
+}
+
+.achievements-hero-list {
+    flex-direction: row;
+}
+
+.achievements-hero-item {
+    width: 220px;
+}
+
+/* ============== /TABLET HERO ============== */
 
 .header-mobil-button {
     display: none;
@@ -274,6 +301,8 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+
+/* ============== LAPTOP HEADER ============== */
  
 .container {
     max-width: 1440px;
@@ -303,9 +332,21 @@ body {
     border-radius: 8px;
 }
 
+/* ============== /LAPTOP HEADER ============== */
+
+/* ============== LAPTOP HERO ============== */
+
+.hero-photo {
+    background: url(./icons/hero-icon/abstract-hero-desk.svg) center no-repeat;
+}
+
+/* ============== /LAPTOP HERO ============== */
+
 }
 
 @media screen and (min-width: 1920px) {
+
+/* ============== DESKTOP HEADER ============== */
 
 .container {
     max-width: 1920px;
@@ -342,5 +383,7 @@ body {
     width: 136px;
     height: 59px;
 }
+
+/* ============== /DESKTOP HEADER ============== */
 
 }
