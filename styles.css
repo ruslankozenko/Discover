@@ -73,7 +73,7 @@ body {
 
 .header-estatein {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .header-container {
@@ -214,35 +214,17 @@ body {
 
 @media screen and (min-width: 768px) {
 
-/*============== TABLET HEADER ==============*/
-
 .container {
     max-width: 768px;
     padding-left: 40px;
     padding-right: 40px;
-}    
-
-/* ============== /TABLET HEADER ============== */
-
-/* ============== TABLET HERO ============== */
-
-.hero-photo {
-    background: url(./icons/hero-icon/abstract-hero-tab.svg) center no-repeat;
 }
 
-.hero-button {
-    flex-direction: row;
-}
+/*============== TABLET HEADER ==============*/
 
-.achievements-hero-list {
-    flex-direction: row;
+.header-estatein {
+    margin-bottom: 0;
 }
-
-.achievements-hero-item {
-    width: 220px;
-}
-
-/* ============== /TABLET HERO ============== */
 
 .header-mobil-button {
     display: none;
@@ -256,18 +238,18 @@ body {
 }
 
 .header-estatein-button {
-    display: block;
+    display: flex;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
-    
+
 }
 
 .menu-link {
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 1.5;
     color: #fff;
 }
@@ -292,23 +274,44 @@ body {
     height: 49px;
     background: #141414;
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 1.5;
     color: #fff;
 }
 
 /* ============== /TABLET HEADER ============== */
+
+/* ============== TABLET HERO ============== */
+
+.hero-photo {
+    background: url(./icons/hero-icon/abstract-hero-tab.svg) center no-repeat;
+}
+
+.hero-button {
+    flex-direction: row;
+}
+
+.achievements-hero-list {
+    flex-direction: row;
+}
+
+.achievements-hero-item {
+    width: 220px;
+}
+
+/* ============== /TABLET HERO ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
 
-/* ============== LAPTOP HEADER ============== */
- 
 .container {
     max-width: 1440px;
     padding-left: 80px;
     padding-right: 80px;
 }
+
+/* ============== LAPTOP HEADER ============== */
 
 .header-logo-image {
     width: 113px;
@@ -340,19 +343,73 @@ body {
     background: url(./icons/hero-icon/abstract-hero-desk.svg) center no-repeat;
 }
 
+.estatein-hero-basis {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.photo-hero-image {
+    margin-right: -80px;
+}
+
+.hero-icon-photo {
+    margin-right: -80px;
+}
+
+.hero-top {
+    flex-direction: row-reverse;
+    margin-top: 130px;
+    gap: 0;
+    margin-bottom: 50px;
+}
+
+.hero-title {
+    font-size: 46px;
+    max-width: 610px;
+    padding-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 16px;
+    max-width: 610px;
+}
+
+.hero-button {
+    margin-bottom: 50px;
+}
+
+.hero-btn {
+    width: 161px;
+}
+
+.achievements-item-title {
+    font-size: 30px;
+}
+
+.achievements-item-title-description {
+    font-size: 16px;
+}
+
+.achievements-hero-item {
+    border-radius: 10px;
+    padding: 14px 20px;
+    width: 192px;
+    height: 99px;
+}
+
 /* ============== /LAPTOP HERO ============== */
 
 }
 
 @media screen and (min-width: 1920px) {
 
-/* ============== DESKTOP HEADER ============== */
-
 .container {
     max-width: 1920px;
     padding-left: 162px;
     padding-right: 162px;
 }
+
+/* ============== DESKTOP HEADER ============== */
 
 .header-logo-image {
     width: 160px;
@@ -385,5 +442,64 @@ body {
 }
 
 /* ============== /DESKTOP HEADER ============== */
+
+/* ============== DESKTOP HERO ============== */
+
+.photo-hero-image {
+    margin-right: -160px;
+}
+
+.hero-top {
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.hero-title {
+    font-size: 60px;
+    max-width: 758px;
+    padding-bottom: 24px;
+}
+
+.hero-description {
+    font-size: 18px;
+}
+
+.hero-button {
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.hero-btn {
+    border-radius: 10px;
+    padding: 18px 24px;
+    width: 201px;
+    height: 63px;
+    font-size: 18px;
+}
+
+.achievements-subitem {
+    gap: 20px;
+}
+
+.achievements-hero-list {
+    gap: 20px;
+}
+
+.achievements-hero-item {
+    border-radius: 12px;
+    padding: 16px 24px;
+    width: 239px;
+    height: 121px;
+}
+
+.achievements-item-title {
+    font-size: 40px;
+}
+
+.achievements-item-title-description {
+    font-size: 18px;
+}
+
+/* ============== /DESKTOP HERO ============== */
 
 }
