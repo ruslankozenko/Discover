@@ -257,6 +257,151 @@ body {
 
 /* ============== /MOBILE BENEFITS ============== */
 
+/* ============== MOBILE OBJECTS ============== */
+
+.objects-button {
+    display: none;
+}
+
+.object1 {
+    display: none;
+}
+
+.object2 {
+    display: none;
+}
+
+
+
+.objects-top {
+    margin-bottom: 40px;
+    padding-top: 20px;
+    background: url(./icons/abstract-icon.svg) no-repeat;
+}
+
+.objacts-title {
+    font-weight: 600;
+    font-size: 28px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.objects-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #999;
+}
+
+.objects-catalog {
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 24px;
+    background: #141414;
+    margin-bottom: 30px;    
+}
+
+.photo-object {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.object-name {
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.object-name-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #999;
+}
+
+.object-sending {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.object-subtitle {
+    margin-bottom: 20px;
+}
+
+.object-detailing-item {
+    font-weight: 500;
+    font-size: 12px; 
+    line-height: 1.5;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #262626;
+    border-radius: 28px;
+    padding: 6px 14px;
+    width: 123px;
+    height: 33px;
+    background: #1a1a1a;
+}
+
+.object-villa {
+    max-width: 78px;
+}
+
+.object-detailing-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.objects-price-title {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #999;
+}
+
+.objects-price-description {
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.objects-price-btn {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #fff;
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 202px;
+    height: 49px;
+    background: #703bf7;
+    border: none;
+}
+
+.objects-price-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.objects-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ============== /MOBILE OBJECTS ============== */
+
 @media screen and (max-width: 768px) {
     .achievements-subitem {
             width: 100%;
