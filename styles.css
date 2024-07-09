@@ -279,7 +279,6 @@ body {
     margin-bottom: 40px;
     padding-top: 20px;
     background: url(./icons/abstract-icon.svg) no-repeat;
-    width: 358px;
 }
 
 .objacts-title {
@@ -569,10 +568,6 @@ body {
     font-size: 34px;
 }
 
-.objects-top {
-    width: 568px;
-}
-
 .objects-catalog-list {
     display: flex;
     gap: 16px;
@@ -713,6 +708,75 @@ body {
 }
 
 /* ============== /LAPTOP BENEFITS ============== */
+
+/* ============== LAPTOP OBJECTS ============== */
+
+.objects-swiper-mob {
+    display: none;
+}
+
+.objects-button {
+    display: block;
+}
+
+.object1 {
+    display: block;
+}
+
+.objects-top {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.objects-top-text {
+    width: 975px;
+    height: 115px;
+}
+
+.objacts-title {
+    font-size: 38px;
+}
+
+.objects-description {
+    font-size: 16px;
+}
+
+.objects-btn {
+    width: 155px;
+    height: 49px;
+    font-size: 12px;
+}
+
+.objects-catalog {
+    border: none;
+    border-radius: 0;
+    padding: 0px;
+    background: none;
+}
+
+.objects-catalog-item {
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 413px;
+    background: #141414;
+}
+
+.objects-catalog-list {
+    gap: 20px;
+}
+
+.object-name {
+    font-size: 20px;
+}
+
+.object-name-description {
+    font-size: 16px;
+}
+
+
+/* ============== /LAPTOP OBJECTS ============== */
 
 }
 
