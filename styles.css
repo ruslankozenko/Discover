@@ -775,6 +775,17 @@ body {
     font-size: 16px;
 }
 
+.objects-price-description {
+    font-size: 20px;
+}
+
+.objects-price-btn {
+    width: 227px;
+}
+
+.objects-swiper-description {
+    font-size: 16px;
+}
 
 /* ============== /LAPTOP OBJECTS ============== */
 
@@ -915,5 +926,100 @@ body {
 }
 
 /* ============== /DESKTOP BENEFITS ============== */
+
+/* ============== DESKTOP OBJECTS ============== */
+
+.objacts-title {
+    font-size: 48px;
+    padding-bottom: 14px;
+}
+
+.objects-description {
+    font-size: 18px;
+}
+
+.objects-btn {
+    border-radius: 10px;
+    padding: 18px 24px;
+    width: 196px;
+    height: 63px;
+    font-size: 16px;
+}
+
+.objects-top {
+    justify-content: space-between;
+}
+
+.objects-top-text {
+    width: 1200px;
+    height: 140px;
+}
+
+.objects-catalog-list {
+    gap: 30px;
+}
+
+.objects-catalog-item {
+    padding: 40px;
+    max-width: 512px;
+}
+
+.object-subtitle {
+    margin-bottom: 30px;
+}
+
+.object-name {
+    font-size: 24px;
+}
+
+.object-name-description {
+    font-size: 18px;
+}
+
+.object-detailing-list {
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.object-detailing-item {
+    padding: 8px 14px;
+    width: 147px;
+    height: 43px;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.object-villa {
+    max-width: 89px;
+}
+
+.objects-price-title {
+    font-size: 18px;
+}
+
+.objects-price-description {
+    font-size: 24px;
+}
+
+.objects-price-btn {
+    border-radius: 10px;
+    padding: 18px 24px;
+    width: 279px;
+    height: 63px;
+    font-size: 18px;
+}
+
+.button-prev,
+.button-next {
+    padding: 14px;
+    width: 58px;
+    height: 58px;
+}
+
+.objects-swiper-description {
+    font-size: 20px;
+}
+
+/* ============== /DESKTOP OBJECTS ============== */
 
 }
