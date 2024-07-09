@@ -279,6 +279,7 @@ body {
     margin-bottom: 40px;
     padding-top: 20px;
     background: url(./icons/abstract-icon.svg) no-repeat;
+    width: 358px;
 }
 
 .objacts-title {
@@ -527,6 +528,10 @@ body {
 
 /* ============== TABLET HERO ============== */
 
+.hero-title {
+    font-size: 34px;
+}
+
 .estatein-hero {
     margin-bottom: 0;
 }
@@ -551,7 +556,33 @@ body {
 
 /* ============== TABLET BENEFITS ============== */
 
+
 /* ============== /TABLET BENEFITS ============== */
+
+/* ============== TABLET OBJECTS ============== */
+
+.object2 {
+    display: block;
+}
+
+.objacts-title {
+    font-size: 34px;
+}
+
+.objects-top {
+    width: 568px;
+}
+
+.objects-catalog-list {
+    display: flex;
+    gap: 16px;
+}
+
+.objects-catalog-item {
+    max-width: 310px;
+}
+
+/* ============== /TABLET OBJECTS ============== */
 
 }
 
