@@ -415,7 +415,7 @@ body {
     padding: 14px 20px;
     background: #1a1a1a;
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 12px; 
     line-height: 1.5;
     color: #fff;
 }
@@ -439,7 +439,7 @@ body {
 
 .objects-swiper-description {
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 12px; 
     line-height: 1.5;
     color: #fff;
 }
@@ -449,6 +449,130 @@ body {
 }
 
 /* ============== /MOBILE OBJECTS ============== */
+
+/* ============== MOBILE CLIENTS ============== */
+
+.clients-button {
+    display: none;
+}
+
+.clients-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clients-top {
+    margin-bottom: 40px;
+    padding-top: 20px;
+    background: url(./icons/abstract-icon.svg) no-repeat;
+}
+
+.clients-title {
+    font-weight: 600;
+    font-size: 28px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.clients-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #999;
+}
+
+.clients-reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.clients-reviews-item {
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 30px;
+    background: #141414;
+}
+
+.clients-stars-list {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.client-text {
+    margin-bottom: 24px;
+}
+
+.client-text-title {
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.client-text-clients-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.clients-information {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.client-name {
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.review-location {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #999;
+}
+
+.clients-btn {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 14px 20px;
+    background: #1a1a1a;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.clients-swiper-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clients-swiper-description {
+    font-weight: 500;
+    font-size: 12px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+.clients-button-page-mob {
+    border-top: 1px solid #262626;
+    padding: 16px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============== /MOBILE CLIENTS ============== */
 
 @media screen and (max-width: 768px) {
     .achievements-subitem {
