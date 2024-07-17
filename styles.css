@@ -931,6 +931,11 @@ body {
 
 /* ============== LAPTOP CLIENTS ============== */
 
+.clients-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .clients-swiper-mob {
     display: none;
 }
@@ -1240,5 +1245,72 @@ body {
 }
 
 /* ============== /DESKTOP OBJECTS ============== */
+
+/* ============== DESKTOP CLIENTS ============== */
+
+.clients-title {
+    font-size: 48px;
+}
+
+.clients-description {
+    font-size: 18px;
+}
+
+.clients-top {
+    margin-bottom: 80px;
+}
+
+.clients-btn {
+    border-radius: 10px;
+    padding: 18px 24px;
+    font-size: 18px;
+}
+
+.clients-reviews-list {
+    gap: 30px;
+}
+
+.clients-reviews-item {
+    border-radius: 12px;
+}
+
+.clients-stars-list {
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.client-text {
+    margin-bottom: 40px;
+}
+
+.client-text-title {
+    font-size: 24px;
+}
+
+.client-text-clients-description {
+    font-size: 18px;
+}
+
+.clients-information {
+    gap: 12px;
+}
+
+.client-name {
+    font-size: 20px;
+}
+
+.review-location {
+    font-size: 18px;
+}
+
+.clients-button-page-mob {
+    padding: 20px 0px 0px 0px;
+}
+
+.clients-swiper-description {
+    font-size: 20px;
+}
+
+/* ============== /DESKTOP CLIENTS ============== */
 
 }
