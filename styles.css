@@ -582,6 +582,130 @@ body {
 
 /* ============== /MOBILE CLIENTS ============== */
 
+/* ============== MOBILE QUESTIONS ============== */
+
+.question2 {
+    display: none;
+}
+
+.question3 {
+    display: none;
+}
+
+.questions-button {
+    display: none;
+}
+
+.questions-section {
+    margin-bottom: 40px;
+}
+
+.questions-top {
+    margin-bottom: 40px;
+    padding-top: 20px;
+    background: url(./icons/abstract-icon.svg) no-repeat;
+}
+
+.questions-title {
+    font-weight: 600;
+    font-size: 28px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.questions-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #999;
+}
+
+.questions-top-text {
+    width: 358px;
+    height: 132px;
+}
+
+.questions-board-item {
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 30px;
+    background: #141414;
+}
+
+.question-title {
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.answer-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #999;
+    padding-bottom: 20px;
+}
+
+.questions-board-btn {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 14px 20px;
+    background: #1a1a1a;
+    width: 298px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.31;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+.questions-board-button {
+    display: flex;
+}
+
+.questions-board {
+    margin-bottom: 30px;
+}
+
+.questions-button-page-mob {
+    border-top: 1px solid #262626;
+    padding: 16px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 358px;
+}
+
+.questions-swiper-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.questions-btn {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 14px 20px;
+    background: #1a1a1a;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.questions-swiper-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* ============== /MOBILE QUESTIONS ============== */
+
 @media screen and (max-width: 768px) {
     .achievements-subitem {
             width: 100%;
