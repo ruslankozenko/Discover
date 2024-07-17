@@ -623,7 +623,6 @@ body {
 
 .questions-top-text {
     width: 358px;
-    height: 132px;
 }
 
 .questions-board-item {
@@ -676,8 +675,7 @@ body {
     border-top: 1px solid #262626;
     padding: 16px 0px 0px 0px;
     display: flex;
-    justify-content: space-between;
-    max-width: 358px;
+    justify-content: space-between
 }
 
 .questions-swiper-button {
@@ -811,7 +809,6 @@ body {
 
 /* ============== TABLET BENEFITS ============== */
 
-
 /* ============== /TABLET BENEFITS ============== */
 
 /* ============== TABLET OBJECTS ============== */
@@ -842,6 +839,24 @@ body {
 }
 
 /* ============== /TABLET CLIENTS ============== */
+
+/* ============== TABLET QUESTIONS ============== */
+
+.question2 {
+    display: block;
+}
+
+.questions-top-text {
+    width: 558px;
+}
+
+.questions-board-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ============== /TABLET QUESTIONS ============== */
 
 }
 
@@ -989,7 +1004,7 @@ body {
 
 .objects-top {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 150px;
 }
 
@@ -1136,6 +1151,86 @@ body {
 }
 
 /* ============== /LAPTOP CLIENTS ============== */
+
+/* ============== LAPTOP QUESTIONS ============== */
+
+.questions-button-mob {
+    display: none;
+}
+
+.question3 {
+    display: block;
+}
+
+.questions-button {
+    display: block;
+}
+
+.questions-section {
+    margin-bottom: 80px;
+}
+
+.questions-title {
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.questions-description {
+    font-size: 16px;
+}
+
+.questions-top-text {
+    width: 1003px;
+}
+
+.questions-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.questions-board-list {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.questions-board-item {
+    padding: 40px;
+}
+
+.question-title {
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+
+.answer-description {
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.questions-board-btn {
+    width: 107px;
+    height: 46px;
+    font-size: 12px;
+}
+
+.questions-board {
+    margin-bottom: 40px;
+}
+
+.questions-button-page-mob {
+    justify-content: flex-start;
+}
+
+.questions-swiper-button {
+    gap: 16px;
+}
+
+.questions-swiper-description {
+    font-size: 16px;
+}
+
+/* ============== /LAPTOP QUESTIONS ============== */
 
 }
 
@@ -1436,5 +1531,62 @@ body {
 }
 
 /* ============== /DESKTOP CLIENTS ============== */
+
+/* ============== DESKTOP QUESTIONS ============== */
+
+.questions-top {
+    margin-bottom: 80px;
+}
+
+.questions-top-text {
+    width: 1236px;
+}
+
+.questions-title {
+    font-size: 48px;
+    padding-bottom: 14px;
+}
+
+.questions-description {
+    font-size: 18px;
+}
+
+.questions-btn {
+    border-radius: 10px;
+    padding: 18px 24px;
+    font-size: 18px;
+}
+
+.questions-board-list {
+    gap: 30px;
+}
+
+.questions-board-item {
+    padding: 50px;
+}
+
+.question-title {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.answer-description {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.questions-board-btn {
+    border-radius: 10px;
+    padding: 18px 24px;
+    width: 134px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.questions-swiper-description {
+    font-size: 20px;
+}
+
+/* ============== /DESKTOP QUESTIONS ============== */
 
 }
