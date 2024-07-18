@@ -704,6 +704,60 @@ body {
 
 /* ============== /MOBILE QUESTIONS ============== */
 
+/* ============== MOBILE EXPLORE ============== */
+
+.explore-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    background: 
+            url(./images/explore/cubes-left-mob1.png) no-repeat,
+            url(./images/explore/cubes-right-mob1.png) 50px bottom no-repeat;
+           
+}
+
+
+.explore-top-title {
+    font-weight: 600;
+    font-size: 28px; 
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.explore-top-description {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #999;
+}
+
+.explore-top-text {
+    margin-bottom: 16px;
+}
+
+.explore-btn {
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 345px;
+    height: 49px;
+    background: #703bf7;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #fff;
+    border: none;
+}
+
+.explore-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ============== /MOBILE EXPLORE ============== */
+
 @media screen and (max-width: 768px) {
     .achievements-subitem {
             width: 100%;
