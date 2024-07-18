@@ -758,6 +758,55 @@ body {
 
 /* ============== /MOBILE EXPLORE ============== */
 
+/* ============== MOBILE FOOTER ============== */
+
+.footer-estatein {
+    padding-top: 50px;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-logo-image {
+    width: 113px;
+    height: 34px;
+}
+
+.subscribe-form-employers {
+    position: relative;
+}
+
+.subscribe-input {
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1.71429;
+    letter-spacing: -0.01em;
+    color: #999;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 14px 50px;
+    width: 343px;
+    height: 52px;
+    background: #141414;
+    background: url(./icons/footer/icon-letter.svg) 15px #141414 no-repeat;
+}
+
+.subscribe-button {
+    content: "";
+    position: absolute;
+    top: 7%;
+    right: 1%;
+    padding: 16px;
+    width: 49px;
+    height: 49px;
+    border: 0;
+    background: url(./icons/footer/icon-air.svg) center no-repeat;
+}
+/* ============== /MOBILE FOOTER ============== */
+
 @media screen and (max-width: 768px) {
     .achievements-subitem {
             width: 100%;
