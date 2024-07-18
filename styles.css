@@ -713,7 +713,7 @@ body {
     border-bottom: 1px solid #262626;
     background: 
             url(./images/explore/cubes-left-mob1.png) no-repeat,
-            url(./images/explore/cubes-right-mob1.png) 50px bottom no-repeat;
+            url(./images/explore/cubes-right-mob1.png) 60px bottom no-repeat;
            
 }
 
@@ -911,6 +911,19 @@ body {
 }
 
 /* ============== /TABLET QUESTIONS ============== */
+
+/* ============== TABLET EXPLORE ============== */
+
+.explore-section {
+    background: url(./images/explore/cubes-left-mob1.png) no-repeat,
+                url(./images/explore/cubes-right-mob2.png) right no-repeat;
+}
+
+.explore-top {
+    align-items: flex-start;
+}
+
+/* ============== /TABLET EXPLORE ============== */
 
 }
 
