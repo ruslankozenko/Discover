@@ -777,7 +777,9 @@ body {
 }
 
 .subscribe-form-employers {
+    
     position: relative;
+    
 }
 
 .subscribe-input {
@@ -896,6 +898,7 @@ body {
     letter-spacing: -0.01em;
     color: #fff;
 }
+
 
 /* ============== /MOBILE FOOTER ============== */
 
@@ -1065,6 +1068,14 @@ body {
 }
 
 /* ============== /TABLET EXPLORE ============== */
+
+/* ============== TABLET FOOTER ============== */
+
+.subscribe-button {
+    right: 51%;
+}
+
+/* ============== /TABLET FOOTER ============== */
 
 }
 
@@ -1475,6 +1486,71 @@ body {
 }
 
 /* ============== /LAPTOP EXPLORE ============== */
+
+/* ============== LAPTOP FOOTER ============== */
+
+.footer-estatein {
+    padding-top: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-content-small2 {
+    margin-top: 0;
+}
+
+.footer-subscribe {
+    gap: 24px;
+    margin-bottom: 0;
+}
+
+.subscribe-input {
+    width: 305px;
+    height: 52px;
+}
+
+.subscribe-button {
+    right: 1%;
+}
+
+.footer-content {
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    gap: 24px;
+}
+
+.footer-content-column {
+    border-bottom: none;
+    padding: 0;
+    height: 232px;
+    max-width: 100%;
+}
+
+.footer-content-title {
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.footer-content-list {
+    gap: 12px;
+}
+
+.footer-menu-link {
+    font-size: 16px;
+}
+
+.footer-bottom {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+/* ============== /LAPTOP FOOTER ============== */
 
 }
 
