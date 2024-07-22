@@ -1502,6 +1502,7 @@ body {
 
 .footer-content-small2 {
     margin-top: 0;
+    padding-left: 54px;
 }
 
 .footer-subscribe {
@@ -1526,7 +1527,7 @@ body {
 
 .footer-content-column {
     border-bottom: none;
-    padding: 0;
+    padding-bottom: 0;
     height: 232px;
     max-width: 100%;
 }
@@ -1547,7 +1548,18 @@ body {
 .footer-bottom {
     flex-direction: row-reverse;
     justify-content: space-between;
+    padding: 12px 80px;
+}
 
+.footer-copyright-list {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-social-item {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
 }
 
 /* ============== /LAPTOP FOOTER ============== */
@@ -1941,5 +1953,83 @@ body {
 }
 
 /* ============== /DESKTOP EXPLORE ============== */
+
+/* ============== DESKTOP FOOTER ============== */
+
+.footer-estatein {
+    padding-top: 100px;
+}
+
+.footer-top {
+    padding-bottom: 100px;
+}
+
+.footer-subscribe {
+    gap: 30px;
+}
+
+.footer-logo-image {
+    width: 160px;
+    height: 48px;
+}
+
+.subscribe-input {
+    border-radius: 12px;
+    padding: 18px 44px;
+    width: 423px;
+    height: 66px;
+    font-size: 18px;
+}
+
+.subscribe-button {
+    top: 12%;
+    right: 2%;
+}
+
+.footer-content {
+    gap: 50px;
+}
+
+.footer-content-list {
+    gap: 14px;
+}
+
+.footer-content-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-menu-link {
+    font-size: 18px;
+}
+
+.footer-content-column {
+    width: 179px;
+    height: 254px;
+}
+
+.footer-bottom {
+    padding: 16px 162px;
+}
+
+.footer-social-list {
+    gap: 10px;
+}
+
+.footer-social-item {
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+}
+
+.footer-copyright-list {
+    gap: 38px;
+}
+
+.footer-copyright-list-item {
+    font-size: 18px;
+}
+
+/* ============== /DESKTOP FOOTER ============== */
 
 }
